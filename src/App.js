@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React, { Element,Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import RootPage from "./components/RootPage";
+import Morse from "./components/Morse";
+import Affinic from "./components/Affinic";
+import Vigenere from "./components/Vigenere";
+
+
+import {
+    BrowserRouter as Router,
+    Route,Routes
+} from 'react-router-dom';
+
+class App extends Component {
+    render() {
+        return (
+            <Router>
+            <Routes>
+                <Route exact path="/" element={<RootPage/>}/>
+                <Route exact path="/morse" element={<Morse/>}/>
+                <Route exact path="/affinic" element={<Affinic/>}/>
+                <Route exact path="/vigenere" element={<Vigenere/>}/>
+
+                </Routes>
+            </Router>
+        );
+    }
 }
 
 export default App;
