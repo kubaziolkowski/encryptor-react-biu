@@ -23,6 +23,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+ 
 
 .App-link {
   color: #61dafb;
@@ -36,7 +37,75 @@
     transform: rotate(360deg);
   }
 }
+.morseWrapper h1,h2,h3,p,form,button,input,textarea,li,a{
+  font-family: monospace;
+  color:black;
+}
 
+
+
+
+textarea{
+  resize:none;
+}
+.areas{
+  display: inline-flex;
+}
+.resultArea{
+  position: relative;
+  top:-44px;
+  
+}
 .morseWrapper{
   background-image: url(./images/mors.jpeg);
+  position: absolute;
+  margin-left: 25%;
+  margin-right:25%;
+  box-sizing: border-box;
+  border-radius: 5%;
+  padding: 15px;
+}
+
+.vigenereWrapper{
+  background-image: url(./images/vigenereportrait.png);
+  position: absolute;
+  margin-left: 25%;
+  margin-right:25%;
+  box-sizing: border-box;
+  border-radius: 5%;
+  padding: 15px;
+  border-style: solid;
+}
+
+ ul{
+  list-style-type: none;
+}
+
+li{
+  float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  background: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+ li a:hover{
+   color:black;
+   background:white;
+ }
+
+ button{
+   background-color: black;
+   color:white;
+ }
+ button:hover{
+   background-color: white;
+   color:black;
+ }
+body{
+   background-color:#bebebe;
 }
