@@ -109,7 +109,7 @@ export default function Vigenere(){
                     <p>Tajna wiadomość:</p><br/>
                     <textarea cols="20" rows="5" readOnly={true} id="toVigenere"></textarea><br/>
 
-                    <button className="baseButton" >Zapisz do pliku .txt</button><br/>
+                    <button className="baseButton" >Zapisz</button><br/>
                     </div>
             </div>          
 
@@ -141,7 +141,7 @@ export default function Vigenere(){
                     <p>(Nie)tajna wiadmość:</p><br/>
                     <textarea cols="20" rows="5" readOnly={true} id="fromVigenere"></textarea><br/>
 
-                    <button className="baseButton">Zapisz do pliku .txt</button>
+                    <button className="baseButton">Zapisz</button>
                     </div>
                 </div>
                 </div>

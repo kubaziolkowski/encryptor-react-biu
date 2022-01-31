@@ -67,15 +67,24 @@ textarea{
 }
 
 .vigenereWrapper{
-  background-image: url(./images/vigenereportrait.png);
+  background-image: url(./images/cristals2.jpeg);
   position: absolute;
   margin-left: 25%;
   margin-right:25%;
   box-sizing: border-box;
   border-radius: 5%;
   padding: 15px;
-  border-style: solid;
 }
+.affinicWrapper{
+  background-image: url(./images/cristals.jpeg);
+  position: absolute;
+  margin-left: 25%;
+  margin-right:25%;
+  box-sizing: border-box;
+  border-radius: 5%;
+  padding: 15px;
+}
+
 
  ul{
   list-style-type: none;
