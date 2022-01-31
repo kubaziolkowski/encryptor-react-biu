@@ -3,10 +3,7 @@ import {Link} from 'react-router-dom';
 import React, {useState} from "react";
 import alphabet from '../tables/alphabet'
 
-// import SaveFile from "../../scripts/SaveFile";
-// import LoadFileAsText from "../../scripts/LoadFileAsText";
-// import CopyToClipboard from "../../scripts/CopyToClipboard";
-// import LoadFromTwitter from "../../scripts/LoadFromTwitter";
+
 
 export default function AffineCipher() {
 
